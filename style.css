@@ -1,6 +1,8 @@
 /* common css */
 .color-code{
     color: #F00;
+    font-family: Inter;
+    margin: 0 auto;
 }
 /* font */
 *{
@@ -27,9 +29,13 @@ body{
     background-position: center;
     height: 600px;
     background-repeat: no-repeat;
-    width: 1320px; 
-    border-radius: 16px;  
+    width: 1320px;
+    border-radius: 16px;
     position: relative;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 .banner-text{
     color: #FFF;
@@ -52,10 +58,10 @@ top: 26%;
 left: 26%;
 }
 /* 60%off */
-.offer{
+/* .offer{
     display: flex;
     justify-content: center;
-}
+} */
 .discount{
     color: #FF0000;
     text-align: center;
@@ -157,5 +163,71 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background: transparent;
+}
+/* join now style */
+.join-now{
+    background: #fff8f3;
+    padding: 130px;
+    width: 1065px;
+    height: 480px;
+position: relative;
 
+ margin: 120px auto;}
+ 
+ .new-sec{
+    margin: 120px;
+    margin: 0 auto;
+    width: 500px;
+  text-align: center;
+   
+ }
+.joinnowplace{
+color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+/* join now section end */
+/* New best offer style */
+.best-offer-container{
+
+}
+
+
+.what{
+
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+   margin-top: 230px;
+   text-align: center;
+}
+.holydays{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.holiday01{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.what-is{
+    
+    margin-top:-54px;
+    text-align: center;
+}
+.dolor {
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+margin: 10px 10px;
 }
